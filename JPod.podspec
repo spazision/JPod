@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.version      = "0.1.0"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author = { "Jacob Ovard" => "spazision@hotmail.com" }
-    s.homepage = "https://github.com/spazision/JPod.git"
+    s.homepage = "https://github.com/spazision/JPod.git "
     s.source = { :git => "https://github.com/spazision/JPod.git", :tag => "0.1.0" }
     s.framework = "UIKit"
     s.dependency 'Alamofire', '~> 2.0'
