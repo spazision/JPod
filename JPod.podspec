@@ -9,15 +9,13 @@ Pod::Spec.new do |s|
     s.version      = "0.1.0"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author = { "Jacob Ovard" => "spazision@hotmail.com" }
-    s.homepage = "git@github.com:spazision/JPod.git"
-    s.source = { :git => "git@github.com:spazision/JPod.git", :tag => "0.1.0" }
+    s.homepage = "https://github.com/spazision/JPod.git"
+    s.source = { :git => "https://github.com/spazision/JPod.git", :tag => "0.1.0" }
     s.framework = "UIKit"
     s.dependency 'Alamofire', '~> 2.0'
     s.dependency 'MBProgressHUD', '~> 0.9.0'
-
-# s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
     s.source_files = "JPod/**/*.{swift}"
-    s.resources = "JPOD/**/*.{png,jpeg,jpg,storyboard,xib}"
+    s.resources = "JPod/*"
 
 
 
